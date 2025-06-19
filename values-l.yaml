@@ -20,7 +20,7 @@ logstashPipeline:
         index => "%{[@metadata][beat]}-%{+YYYY.MM.dd}"
         document_type => "%{[@metadata][type]}"
         user=> "elastic"
-        password => "replaceMeNow!!"
+        password => "xxxxxxxxxxxx"
     }
     }
 
